@@ -1,0 +1,11 @@
+python main.py \
+--root /home/jiaxing/AI_homework/NeuralNetwork/NN-master/data \
+--batch_size 200 \
+--class_num 10 \
+--lr 0.5 \
+--height 28 \
+--width 28 \
+--print_freq 20 \
+--eval_freq 5 \
+--max_epoch 300 \
+--savepath log/cnn-maxpool-hidden1-lr0.5
